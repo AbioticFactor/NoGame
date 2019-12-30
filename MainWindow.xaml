@@ -1,0 +1,18 @@
+﻿<Window x:Class="NoGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1873.51">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="1049" VerticalAlignment="Top" Width="1866" Source="media/Teemo.png"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="121.01" Margin="10,10,0,0" TextWrapping="Wrap" Text="NoGame" VerticalAlignment="Top" Width="444.438" FontSize="72"/>
+        <Button Content="Play" Click="Play" HorizontalAlignment="Left" Height="202.401" Margin="1368.533,771.536,0,0" VerticalAlignment="Top" Width="447.496" FontSize="72"/>
+        <Button Content="Settings" Click="OpenSettings" HorizontalAlignment="Left" Height="129.664" Margin="1110.788,844.273,0,0" VerticalAlignment="Top" Width="234.026" FontSize="48"/>
+        <Label Name="lblTime" HorizontalAlignment="Left" Height="205.629" Margin="1344.814,516.576,0,0" VerticalAlignment="Top" Width="471.215" FontSize="100" Foreground="#DDFFFFFF"/>
+
+    </Grid>
+</Window>
